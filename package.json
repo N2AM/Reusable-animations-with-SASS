@@ -1,0 +1,30 @@
+{
+  "name": "reusable-animations-with-sass",
+  "version": "1.0.0",
+  "description": "Mixin with keyframes ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev" : "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N2AM/Reusable-animations-with-SASS.git"
+  },
+  "keywords": [
+    "Mixin",
+    "with",
+    "keyframes",
+    "..."
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/N2AM/Reusable-animations-with-SASS/issues"
+  },
+  "homepage": "https://github.com/N2AM/Reusable-animations-with-SASS#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

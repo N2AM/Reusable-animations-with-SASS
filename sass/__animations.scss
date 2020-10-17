@@ -1,0 +1,30 @@
+@mixin rotate($name, $fromDeg, $toDeg) {
+  @-webkit-keyframes #{$name} /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate($fromDeg);
+      -o-transform: rotate($fromDeg);
+      transform: rotate($fromDeg);
+    }
+    to {
+      -webkit-transform: rotate($toDeg);
+      -o-transform: rotate($toDeg);
+      transform: rotate($toDeg);
+    }
+  }
+  @keyframes #{$name} {
+    from {
+      -ms-transform: rotate($fromDeg);
+      -moz-transform: rotate($fromDeg);
+      -webkit-transform: rotate($fromDeg);
+      -o-transform: rotate($fromDeg);
+      transform: rotate($fromDeg);
+    }
+    to {
+      -ms-transform: rotate($toDeg);
+      -moz-transform: rotate($toDeg);
+      -webkit-transform: rotate($toDeg);
+      -o-transform: rotate($toDeg);
+      transform: rotate($toDeg);
+    }
+  }
+}
